@@ -1,0 +1,6 @@
+Functions that only work on certain objects (strings, lists, etc.) are called using dot . notation.
+
+The capitalize() function will save you time when you need to convert the first character of a string to uppercase, while making the remaining characters lowercase.
+
+The find() function checks if a character (or a pattern of characters) is present in a string. The function returns the index (position) of the given value. If the given value is present multiple times, the function will return the first occurrence (the lowest index).
+
