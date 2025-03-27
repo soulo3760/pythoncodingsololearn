@@ -66,3 +66,17 @@ greet("John") # Welcome John
 OUTPUT
 Welcome Guest
 Welcome John
+
+
+##################################################
+The default value is used only if no other value has been passed as an argument when the function is called.
+
+def greet(name="Guest"):
+  print("Welcome", name)
+greet("Anna")
+PY
+What will this code output?
+
+Welcome Anna
+Welcome Guest
+
