@@ -4,3 +4,9 @@ The capitalize() function will save you time when you need to convert the first 
 
 The find() function checks if a character (or a pattern of characters) is present in a string. The function returns the index (position) of the given value. If the given value is present multiple times, the function will return the first occurrence (the lowest index).
 
+len() is a very useful function that accepts a wide range of arguments. It’s not specific to any one particular data type or object, so you don’t use dot notation to call it.
+
+Select the correct way to call the len() function on a list named movies
+
+len(movies)
+movies.len()
