@@ -34,10 +34,37 @@ def greet():
 
 greet()
 
-
 The body of a function contains the reusable code that is executed when the function is called. The code for the body of a function must be indented.
 When a function is defined, you need to make sure parentheses () are added after the name. A colon : must be added at the end of the definition line.
 Indentation, parentheses and the colon are needed for the code to run without errors.
 You can define functions that take any number of arguments (including zero).  Arguments are put inside the parentheses () following the function name.
 
+######################################################################
+A function might require arguments to complete its tasks. Arguments are put inside the parentheses () following the function name.
+py
+#function definition
+def personal_greet(name): 
+  print("Hello", name)
+  print("Have a great day")
 
+#function calls
+personal_greet("Sarah") 
+personal_greet("Henry")
+Click to Edit
+
+OUTPUT
+Hello Sarah
+Have a great day
+Hello Henry
+Have a great day
+##################################################
+Functions must be defined before they can be called. 
+Fix this code so it doesn't result in errors:
+
+#function call
+double(6) 
+
+#function definition
+def double(number): 
+  print(number*2)
+Click to Edit
