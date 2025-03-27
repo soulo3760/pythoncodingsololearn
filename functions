@@ -10,3 +10,7 @@ Select the correct way to call the len() function on a list named movies
 
 len(movies)
 movies.len()
+The append() function is specific to lists. You must use dot notation to call append() on a list.
+
+Write a line of code to call the append() function on a list named movies 
+movies.append('thor')
