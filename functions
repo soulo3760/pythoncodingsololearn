@@ -21,3 +21,15 @@ Complete the code to insert Green as the first item in the list
 items=['movie','song','music','fame']
 items.insert(2,'child');
 this adds child into the index 2 of the list 
+
+
+
+Once a function has been defined, you can call it as many times as you need. This keeps your code short and easy to manage.
+
+Choose the code to call the defined function
+
+def greet(): 
+  print("Hello from a function")
+  print("Have a great day")
+
+greet()
