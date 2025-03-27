@@ -1,0 +1,50 @@
+def bmi(weight, height):
+    index = weight / (height * height)
+    print(index)
+PY
+What are the arguments that the function requires to complete the task?
+1. Weight
+2. Height 
+
+When calling a function, you need to use the same number of arguments that have been defined, in the same order.
+
+Complete the code to call the function and calculate the BMI for a user who is 1.75 m tall and weighs 79 kg
+
+def BMI(weight, height):
+  calc = weight/(height*height)
+  print(calc)
+
+######################################
+
+
+The result of a function can be sent back with the return statement. This is particularly helpful when you need to continue using the result value in your program.
+
+
+#Defining function
+def bmi(weight, height):
+  index = weight / (height * height)
+  return index  #sends the return value back
+
+#Calling function and using return value
+patient_5 = bmi(61, 1.83) #stores return value
+print("underweight:", patient_5 < 18.5)
+
+#Another call
+patient_7 = bmi(75, 1.74)
+print("underweight:", patient_7 < 18.5)
+
+
+###############
+Complete the code to send the return value back for further operations
+def bmi(weight,height):
+  index = weight/(height*2)
+  return index
+p6 = bmi(75, 180)
+print(underweight, p6< 18.5)
+#####################################
+def bmi(weight, height):
+  index = weight / (height * height)
+  return index
+
+P6 = bmi(79, 1.73)
+print(P6 < 18.5)
