@@ -33,3 +33,9 @@ def greet():
   print("Have a great day")
 
 greet()
+
+
+The body of a function contains the reusable code that is executed when the function is called. The code for the body of a function must be indented.
+When a function is defined, you need to make sure parentheses () are added after the name. A colon : must be added at the end of the definition line.
+Indentation, parentheses and the colon are needed for the code to run without errors.
+
