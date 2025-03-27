@@ -14,3 +14,10 @@ The append() function is specific to lists. You must use dot notation to call ap
 
 Write a line of code to call the append() function on a list named movies 
 movies.append('thor')
+
+insert() takes 2 arguments. The first is the index (where to insert) and the second is the item (what to insert).
+
+Complete the code to insert Green as the first item in the list
+items=['movie','song','music','fame']
+items.insert(2,'child');
+this adds child into the index 2 of the list 
