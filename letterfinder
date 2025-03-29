@@ -1,0 +1,4 @@
+food = ['nyama','mchele','ugali','beans','ndegu','abocado']
+for i in food:
+    if 'd' in i:
+        print('i would love to eat: ' + i)
