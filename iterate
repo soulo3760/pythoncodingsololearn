@@ -32,3 +32,20 @@ welcome to our house sammy
 47
 49
 47
+###########################
+###############
+RANKS = ['ACE','KING','QUEEN','WARRIOR']
+COLOR = ['BLACK', 'RED']
+
+for i in RANKS:
+ for l in COLOR:
+    print(i,l)
+OUTPUT
+ACE BLACK
+ACE RED
+KING BLACK
+KING RED
+QUEEN BLACK
+QUEEN RED
+WARRIOR BLACK
+WARRIOR RED
