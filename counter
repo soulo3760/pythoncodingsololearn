@@ -10,3 +10,14 @@ print ('number of tv: ' + str(counter))
 
 OUTPUT
   number of tv: 3
+###########
+#####################
+##counter application
+
+counter = 0
+electronics = ['tv','radio','tv','cinema','tv']
+
+for eletro in electronics:
+    if eletro =='tv':
+        counter += 1
+print ('number of tv: ' + str(counter))
