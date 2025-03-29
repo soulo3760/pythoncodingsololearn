@@ -21,3 +21,8 @@ seats = 300
 while seats > 0:
   print("Sell ticket")
   seats = seats - 1
+True or false: while loops repeat code whilst a condition holds.
+
+False
+True
+ANS: True
