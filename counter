@@ -21,3 +21,20 @@ for eletro in electronics:
     if eletro =='tv':
         counter += 1
 print ('number of tv: ' + str(counter))
+
+
+###################
+#######################
+COUNT AND ADD THE TOTAL
+###########
+########
+
+#total score MACHINE
+total = 0
+scores = [3,7,8,5,2,]
+for i in scores:
+    total+=i
+print('the total score was: ' + str(total))
+
+
+
