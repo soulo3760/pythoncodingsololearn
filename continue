@@ -14,3 +14,22 @@ OUTPUT
 34
 26
 41
+#################
+#########################
+when is is useful to use continue
+#########
+#################
+When continue is useful:
+When you want to skip multiple operations inside a loop for certain conditions.
+
+When the logic is more complex, and skipping early improves readability.
+
+Example where continue makes sense:
+python
+Copy
+for age in ages:
+    if age < 18:
+        continue  # Skip processing for minors
+    register_voter(age)
+    send_newsletter(age)
+Here, continue avoids calling two functions for ages under 18.
