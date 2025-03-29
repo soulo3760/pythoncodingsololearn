@@ -1,2 +1,34 @@
 You can use the for loop with the in operator to iterate over lists and perform the same operation for each element.
 
+The iterator variable i stands for each item in the list. As the loop goes on, it changes to the next item.
+
+ages = '2345'
+for i in ages:
+    print(i)
+
+output
+2
+3
+4
+5
+
+#####################################################
+#########################
+#############
+new_users = ['solomon', 'mioro', 'sammy']
+for i in new_users:
+    print('welcome to our house ' + i)
+
+
+lists = [1,2,4,2]
+for i in lists:
+    i += 45
+    print(i)
+OUTPUT
+welcome to our house solomon
+welcome to our house mioro
+welcome to our house sammy
+46
+47
+49
+47
