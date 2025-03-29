@@ -1,0 +1,11 @@
+def invest(wide, height):
+    area = wide*height
+    if area > 30000:
+        print('you can invest')
+    else:
+        print('not recommended to invest')
+
+
+
+man1 = invest(200,100)
+man2 = invest(3000, 1000)
