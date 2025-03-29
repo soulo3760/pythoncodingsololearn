@@ -5,3 +5,13 @@ def bmi(weight,height):
 
 patient_5 = bmi(180,180)
 print('your bmi is :', patient_5)
+
+
+#######
+What's the bmi() function returning to the caller code?
+
+calc
+height
+weight
+
+ans = calc
