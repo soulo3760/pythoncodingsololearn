@@ -1,0 +1,23 @@
+range() creates 10 numbers in a sequence, starting from 0.
+
+range() generates a series of integer numbers. The i variable is used to iterate over the numbers.
+
+You can replace i with any other variable of your choice.
+# Loop using i as internal variable
+for i in range(3):
+  print(i)
+
+print("--")   #This is just a separator
+
+#Loop using "something" as internal variable
+for something in range(3):
+  print(something)
+
+
+while
+  When the condition no longer holds true, we exit the while loop.
+
+seats = 300
+while seats > 0:
+  print("Sell ticket")
+  seats = seats - 1
