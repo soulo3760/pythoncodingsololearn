@@ -8,3 +8,55 @@ for song in songs:
   if song == "Happy":
     print("Playing " + song)
     break
+The break statement must be placed within the if statement where the condition is defined, ensuring proper indentation.
+prices = [35, 80, 16, 89, 95, 76]
+for price in prices:
+  if price > 90:
+      break
+OUTPUT
+
+This code is designed to stop the loop when the price value is higher than 90.
+
+###############
+#######################
+########
+##################################
+prices = [35, 80, 16, 100, 95, 76]
+
+for price in prices:
+
+if price > 90:
+
+break
+
+print(price)
+
+output
+35
+80
+
+So I need to go through each element in the list and check when the loop breaks. Let's step through the list.
+
+First iteration: price is 35. 35 is not greater than 90, so it doesn't break. Then print(35). That's the first output.
+
+Second iteration: price is 80. Still not over 90. Print 80. Second output.
+
+Third iteration: price is 16. 16 is less than 90. Print 16. Third output.
+
+Fourth iteration: price is 100. Now, 100 is greater than 90. So the 'break' statement is triggered. The loop exits immediately. So the loop stops here. The print(price) doesn't execute for 100, and the remaining elements (95, 76) are not processed at all because the loop has broken.
+
+So the outputs are 35, 80, 16. That's three values. Therefore, the program outputs 3 values.
+
+
+################
+########################
+USE OF WHILE IN BREAKS
+#########
+##################################
+while True means the while loop's condition is always true, causing it to run indefinitely. It will only stop when the condition for the break statement is met.
+
+The break statement is particularly handy with while loops when you're unsure when a specific condition will be satisfied.
+
+For instance, the following code will keep asking the user for input and display it until they enter 'Stop'
+
+
