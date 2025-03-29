@@ -1,0 +1,10 @@
+The break statement is used to stop the loop when some condition is met.
+
+This is very useful when searching for a specific item or condition, and there’s no need to continue once it’s found.
+songs = ["Hello", "Yesterday", "Happy", "Hallelujah"]
+
+for song in songs:
+  print("Searching")
+  if song == "Happy":
+    print("Playing " + song)
+    break
