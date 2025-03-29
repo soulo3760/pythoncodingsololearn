@@ -1,0 +1,7 @@
+def bmi(weight,height):
+    calc = weight/(height*height)
+    return (calc)
+
+
+patient_5 = bmi(180,180)
+print('your bmi is :', patient_5)
