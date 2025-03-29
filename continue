@@ -6,3 +6,11 @@ In the code below, all ages from the list will be printed except those below 18.
    if age < 18:
     continue
   print(age)
+OUTPUT
+OUTPUT
+19
+22
+75
+34
+26
+41
