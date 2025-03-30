@@ -1,0 +1,17 @@
+Sets, unlike lists and tuples, are unordered collections. They are created with curly brackets { }.
+
+guests = {'mercy','anna','mary'}
+#######
+Sets are unordered and don't support indexing or slicing.
+################
+Sets can't have duplicates, which is very helpful when developers need to ensure that each item in a collection is unique.
+For example, in social media apps, your friends list should not have duplicates.
+Adding duplicate items to a set doesn't cause an error; instead, it's ignored.
+
+friends = {'Anna', 'Mery', 'Mery', 'Jonathan'}
+print(friends)
+
+output
+OUTPUT
+{'Mery', 'Anna', 'Jonathan'}
+
