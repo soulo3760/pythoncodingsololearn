@@ -1,0 +1,21 @@
+focus on  key-value pairs through dictionaries, exploring how to use them for effective data management and manipulation
+
+Dictionaries are collection types used to store data in key:value pairs, 
+  which are considered as items. They are ideal for organizing data into pairs, 
+  where each piece of data (value) has its unique identifier (key).
+
+product = {
+  "name": "pen",
+  "color": "red",
+  "price": 79
+}
+print(product)
+
+  OUTPUT
+{'name': 'pen', 'color': 'red', 'price': 79}
+
+
+contact = {
+  'name': 'solomon',
+  'number': 075656282
+}
