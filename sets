@@ -14,6 +14,10 @@ print(friends)
 output
 OUTPUT
 {'Mery', 'Anna', 'Jonathan'}
+##################
+#####################
+#########
+#
 
 to remove or add we use add() and remove()
 to remove all use clear()
@@ -26,3 +30,14 @@ OUTPUT
 {'banana', 'cherry', 'apple'}
 ....
 no duplicates as they are ommitted since sets dont have duplicates
+
+##########
+############
+The difference() function returns a set containing elements that are only in the first set and not in the second.
+set1 = {'apple', 'banana', 'cherry'}
+set2 = {'banana', 'orange'}
+unique = set1.difference(set2)
+print(unique)
+
+OUTPUT
+{'apple', 'cherry'}
