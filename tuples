@@ -6,3 +6,7 @@ For example, in a GPS navigation application, the coordinates of landmarks shoul
 
 In Python, tuples are a fundamental collection type used for storing an ordered sequence of items that should remain unchanged.
 
+to gather multiple elements from the tuple into a list. we use the * operator in tuple unpacking
+scores = (98,91,88,64)
+name, *rest = scores
+print(rest)
