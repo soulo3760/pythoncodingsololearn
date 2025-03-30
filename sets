@@ -15,3 +15,10 @@ output
 OUTPUT
 {'Mery', 'Anna', 'Jonathan'}
 
+to remove or add we use add() and remove()
+to remove all use clear()
+The union() function called returns a new set with all elements from both sets, omitting duplicates.
+set1 = {'apple', 'banana'}
+set2 = {'banana', 'cherry'}
+combined_set = set1.union(set2)
+print(combined_set)
