@@ -11,7 +11,7 @@ Exceptions are another category of mistakes in programming.
 These are specific errors that occur during a program's execution and interrupt its normal flow when first encountered.
 @######
 Bugs don't necessarily stop program execution, while exceptions do.
-  EXAMPLE OF EXCEPTIONS
+  EXAMPLE OF EXCEPTIONS 1 
 name = "Anna"
 print(surname)
 OUTPUT
@@ -20,3 +20,28 @@ Traceback (most recent call last):
     print(surname)
 NameError: name 'surname' is not defined
 //// SO the surname variable isn't defined
+
+  EXAMPLE OF EXCEPTIONS 2 --- TRYING TO CONVERT STRING INTO INT WITHOUT THE STRING BEING NUMERICALS
+
+The ValueError exception is raised when a function receives a value of the correct type, but the value itself is inappropriate or unacceptable.
+
+For example, the int() function can be called on strings, but only when all characters in the string are numerical values.
+
+data =
+"message"
+num_data = int(data)
+
+
+
+#### types of ERRORS
+Match the exception types with their descriptions
+
+Incorrect syntax:
+SyntaxError
+Out-of-range index:
+IndexError
+Inappropriate value:
+ValueError
+Variable is not defined:
+NameError
+
