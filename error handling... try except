@@ -46,3 +46,33 @@ except IndexError:
   print("Out of range")
 else:
   print(choice + " is a great choice!")
+
+
+###############
+##########
+##########################
+You can trigger your own exceptions based on specific conditions using the raise statement. 
+This will immediately stop the program's execution and indicate an error has occurred.
+
+print("Rate from 0 to 10")
+rate = 15
+if rate > 30 or rate < 0:
+  raise ValueError
+OUTPUT
+OUTPUT
+Rate from 0 to 10
+
+########but@#########but#########
+############
+print("Rate from 0 to 10")
+rate = 15
+if rate > 10 or rate < 0:
+  raise ValueError
+
+OUTPUT
+Rate from 0 to 10
+
+Traceback (most recent call last):
+  File "./Playground/file0.py", line 4, in <module>
+    raise ValueError
+ValueError
