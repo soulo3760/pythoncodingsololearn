@@ -81,4 +81,10 @@ dict_items([('Name', 'Albert'), ('Age', 30)])
 #The update() function updates the dictionary with the items from the given argument.
 
 The argument must be a dictionary with the item you want to update.
+The argument for the update() function should be a dictionary, meaning it should start with { and end with }
+
+Update the value of the item with Color key
+car.update
+({"Color": "red"})
+
 
