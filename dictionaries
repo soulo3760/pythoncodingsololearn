@@ -25,7 +25,60 @@ While strings are the most commonly used data type for keys,
 other immutable types can also serve as keys. Values can be of any data type.
 
 True or False: Lists can be used as keys in dictionaries.
-ans true
+ans False
 
 
+#######################
+In Python dictionaries, keys must be unique. If you define the same key multiple times, the last occurrence will overwrite the previous ones.
+#######################
+print(contact["company"])
+
+Another way to access values in a dictionary is through the get() function.
+
+It's called on a dictionary using dot . notation and accepts the key as an argument
+
+info = contact.get("company")
+
+#################
+#########
+#
+You can get all the values and keys of a dictionary using the values() and keys() functions, 
+respectively.
+contact = {
+  "name": "John",
+  "company": "Google",
+}
+info_keys = contact.keys()
+info_values = contact.values()
+
+print(info_keys)
+print(info_values)
+
+#################
+
+The items() function returns all the key:value pairs in a dictionary.
+info = car.items()
+print(info)
+
+###############
+#######################
+user = {
+  "Name": "Albert",
+  "Age": 29
+}
+
+# argument: dictionary {"Age": 30}
+user.update({"Age": 30})
+
+print(user["Age"])
+print(user.items())
+OUTPUT
+30
+dict_items([('Name', 'Albert'), ('Age', 30)])
+############
+#
+#
+#The update() function updates the dictionary with the items from the given argument.
+
+The argument must be a dictionary with the item you want to update.
 
