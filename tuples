@@ -1,0 +1,8 @@
+Tuples, like lists, are ordered collections of items created with parentheses.
+
+So, what's the difference between tuples and lists? Tuples are immutable.
+They are useful when the data stored in collections shouldn't be accidentally modified during the program execution. 
+For example, in a GPS navigation application, the coordinates of landmarks should remain constant
+
+In Python, tuples are a fundamental collection type used for storing an ordered sequence of items that should remain unchanged.
+
