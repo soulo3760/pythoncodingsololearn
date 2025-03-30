@@ -19,3 +19,13 @@ contact = {
   'name': 'solomon',
   'number': 075656282
 }
+
+
+While strings are the most commonly used data type for keys,
+other immutable types can also serve as keys. Values can be of any data type.
+
+True or False: Lists can be used as keys in dictionaries.
+ans true
+
+
+
