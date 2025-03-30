@@ -1,0 +1,15 @@
+Exceptions can often be predictable. To handle them and prevent program failure, you can use a try/except statement.
+
+The try block holds code that might cause an exception.
+If an exception occurs, execution of the try block stops, and the except block is executed, allowing the program to continue running.
+Exception handling allows you to prevent program failure by processing potential exceptions in the way you need.
+
+Exceptions are very helpful when your program interacts with user input. While you can't control what a user inputs, you can control your program's behavior when the input doesn't match the expected format. 
+For instance, this program expects a numerical value as input and will throw an exception when the user inputs a non-numerical one.
+
+price = input()
+try:
+  price_value = int(price)
+  print(price_value)
+except ValueError:
+  print("Please enter a number")
