@@ -1,0 +1,23 @@
+
+Here is the generic syntax and structure of a list comprehension:
+
+cart = [x for x in range(1,51)]
+
+<variable>: the variable that will store the newly created list
+<expression>: an expression performed on each item. If no specific action is needed, the item itself is used
+<item>: the current item being processed
+<iterable>: any iterable object, such as ranges, lists, strings, tuples, and sets
+
+
+#######
+####
+nums = [x*2 for x in range(10)]
+
+print(nums)
+
+
+### this multiplies the number within the range and stores it in the list
+
+#########
+nums = [x+1 for x in range(3)]
+it adds 1 to the number and stores it in the lists
