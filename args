@@ -9,3 +9,47 @@ def total(*args):
 print(total(1, 2, 3, 4, 5))
 print(total(1, 2, 3, 4, 5, 6, 7))
 print(total(1, 2, 3))
+################
+##############################
+############
+Note that args is just a name. You’re not required to use the name args. You can choose any name that you prefer.
+
+def total(*prices):
+  result = 0
+  for arg in prices:
+    result += arg
+  return result
+
+print(total(1, 2, 3, 4, 5))
+print(total(1, 2, 3, 4, 5, 6, 7))
+print(total(1, 2, 3))
+
+########################
+#############
+##################################
+
+Translate course
+Complete the function definition
+
+def
+display(*words):
+for item in words:
+print(item)
+##############################
+#############################################
+def display(*words):
+  for item in words:
+    print(item)
+display("paper", "pen", "pencil")
+##########################
+################################
+def show_items(category, *items):
+  print("Category: " + category)
+  for item in items:
+    print(item)
+
+show_items("Electronics", "Laptop", "Smartphone", "Tablet")
+
+#########
+When defining a function with both regular arguments and *args, the regular arguments must come before *args in the function definition.
+
