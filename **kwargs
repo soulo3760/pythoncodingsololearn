@@ -7,3 +7,12 @@ def display_info(**kwargs):
     print(key, ":", value)
 
 display_info(name="Alice", age=30, city="New York")
+
+###############
+################################
+The ** operator in Python is used to unpack dictionaries into arguments.
+It enables a function to accept an arbitrary number of keyword arguments, converting these arguments into a dictionary of key:value pairs.
+
+Complete the function signature with keyword arguments
+
+def user(**name)
