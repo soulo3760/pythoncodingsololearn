@@ -1,0 +1,9 @@
+Python also allows you to pass keyword arguments using **kwargs. In this case, **kwargs receives arguments in the form of a dictionary, consisting of key:value pairs.
+
+#**kwargs is a dictionary
+def display_info(**kwargs):
+  #kwargs.items() returns the key:valie pairs
+  for key, value in kwargs.items():
+    print(key, ":", value)
+
+display_info(name="Alice", age=30, city="New York")
