@@ -1,0 +1,14 @@
+def welcome(name):
+  return 'welcome back, ' + name
+
+def bye(name):
+  return 'it was nice seeing you, ' + name
+
+def process_user(name, func):
+  return func(name)
+print(process_user('solomon', bye))
+print(process_user('solomon', welcome))
+
+OUTPUT
+it was nice seeing you, solomon
+welcome back, solomon
