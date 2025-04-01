@@ -1,0 +1,23 @@
+In programming, there is a paradigm that follows the same principle as blueprints and instances.
+It's called object-oriented programming (OOP). 
+In OOP, blueprints are referred to as classes, and the instances are known as objects.
+class car:
+  def __init__(self, color, brand, size, seats):
+    self.color = color
+    self.brand = brand
+    self.size = size
+    self.seats = seats
+  
+  def honk(self):
+    print('beep beep!')
+
+my_car = car('green','toyota','4wd', 5)
+print(my_car.color)
+print(my_car.seats)
+
+my_car.honk()
+
+OUTPUT
+green
+5
+beep beep!
